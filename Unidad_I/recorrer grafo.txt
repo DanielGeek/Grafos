@@ -1,0 +1,80 @@
+//con este metodo recorro la pila hacia atras
+//metodos retorna una fila
+public pila caminoA(vertice i){
+if(marcados[i]){ //booleano
+
+//primero insertamos destino
+Pila p;
+i = 3; //este es el destino del camino
+p.insertar(i);
+pila p;
+while(fuente != i) //fuente = 2, mietras i sea distinto de fuente = 2
+{
+	i = verticeA[i];
+	p.insertar(i);
+}
+p.insertar(destino); //fuente por ejemplo 2
+}
+//por ejemplo  la pila 3 1 0 2, recorriendo de 3 hasta 2 y finaliza porque son ==
+else {
+verticeA
+0 | 2
+1 | 0
+2 | 
+3 | 1
+4 | 3
+5 | 4
+6 | 5
+7 |
+}
+}
+
+
+Grafo Nodirigido
+Constructor
+agregarArista
+existeArista
+grado
+...
+nuevo metodo esConexo(); 
+BProf { //clase 
+bProf = new BProf(0);
+return bprof.cuenta == this.numVertices;
+}
+
+numCompConexas();
+
+CompConectadas {
+boolean marcados[];
+int id[];
+int idActual;
+
+
+constructor (Grafo G)
+Inicializar marcados[G.num Vertices]:
+id[G.numVertices];
+for (i = 0; i < G.numVertices; i++){
+
+ if(marcados[i] == false) 
+ busqueda(G, i)
+idActual++;
+}
+
+
+//metodo para busqueda
+busqueda(Grafo G, vertice V){
+ marcados[v] = true;
+ id[v] = idActual;
+
+//Para cada w adyacente au:
+ if(marcado[w]);
+  busqueda(G, W);
+
+//tarea hacer metodo para mostrar todos los caminos desde un vertice origen dado por parametro, utlizar caminoA(vertice i) para empezar a hacerlo
+// para retornar una pila de sus adyacentes
+numCompConectados()
+ return idActual+1;
+
+conectados(origen, dest)
+if(id[origen] == id[dest];
+ return true;

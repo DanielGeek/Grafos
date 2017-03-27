@@ -1,0 +1,1 @@
+Para la siguiente clase traten de implementar el algoritmo de la búsqueda en profundidad que vimos en clase en su lenguaje de preferencia. Recuerden que estamos implementando esas búsquedas como objetos. En la clase pasada quedamos en implementar un método que retornara el camino que realizó la búsqueda en profundidad hasta un vértice en específico. Traten de hacerlo.
